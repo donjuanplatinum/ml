@@ -1,0 +1,12 @@
+[workspace]
+members = [
+	"mnist_cnn",
+]
+[workspace.dependencies]
+anyhow = "1.0.100"
+candle-core = "0.9.1"
+candle-datasets = "0.9.1"
+candle-nn = "0.9.1"
+image = "0.25.8"
+rand = "0.8"
+clap = { version = "4.5.50", features = ["derive"]}
