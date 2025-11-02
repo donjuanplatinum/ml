@@ -1,6 +1,6 @@
 [workspace]
-members = [
-	"mnist_cnn",
+members = [ "lstm",
+	"mnist_cnn", "rnn",
 ]
 [workspace.dependencies]
 anyhow = "1.0.100"

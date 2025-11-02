@@ -1959,6 +1959,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "lstm"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "candle-core",
+ "candle-datasets",
+ "candle-nn",
+ "rand 0.8.5",
+]
+
+[[package]]
 name = "lz4_flex"
 version = "0.11.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2819,6 +2830,16 @@ dependencies = [
  "libc",
  "untrusted",
  "windows-sys 0.52.0",
+]
+
+[[package]]
+name = "rnn"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "candle-core",
+ "candle-nn",
+ "rand 0.8.5",
 ]
 
 [[package]]
